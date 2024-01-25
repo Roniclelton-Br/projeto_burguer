@@ -1,0 +1,9 @@
+/*HEADER RESPONSIVE*/
+@media (max-width: 820px) {
+    header nav {
+        display: none;
+    }
+    header .menu {
+        display: flex;
+    }
+}
