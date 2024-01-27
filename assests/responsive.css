@@ -1,9 +1,26 @@
-/*HEADER RESPONSIVE*/
+/*HEADER AREA RESPONSIVE*/
 @media (max-width: 820px) {
     header nav {
         display: none;
     }
     header .menu {
         display: flex;
+    }
+    .hero .container {
+        flex-direction: column;
+    }
+    .hero .leftside {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .hero h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+    .hero .rightside {
+        padding-bottom: 40px;
+    }
+    .hero .rightside img {
+        height: 300px;
     }
 }

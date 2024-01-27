@@ -85,3 +85,44 @@ header .menu .menu_icon div {
     background-color: #fff;
     height: 6px;
 }
+/*HERO AREA*/
+.hero .container {
+    display: flex;
+}
+.hero .leftside,
+.hero .rightside {
+    flex: 1;
+}
+.hero .leftside {
+    padding-bottom: 150px;
+}
+.hero .rightside {
+    text-align: center;
+}
+.hero .rightside img {
+    width: auto;
+    height: 600px;
+}
+.hero h1 {
+    font-family: 'Calistoga';
+    font-size: 70px;
+    line-height: 74px;
+    margin-top: 50px;
+}
+.hero p {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 40px 0;
+}
+.hero .button {
+    display: inline-block;
+    background-color: #fe6a0f;
+    font-weight: 500;
+    color: #fff;
+    padding: 15px 80px;
+    border-radius: 5px;
+    transition: 0.3s all ease-in-out;
+}
+.hero .button:hover {
+    opacity: 0.8;
+}
