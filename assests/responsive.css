@@ -23,4 +23,14 @@
     .hero .rightside img {
         height: 300px;
     }
+    .search {
+        padding-bottom: 30px;
+    }
+    .search .title {
+        text-align: center;
+    }
+    .search .sides {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
